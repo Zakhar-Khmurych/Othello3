@@ -15,8 +15,11 @@ namespace ConsoleHandler
                     Console.Write(GetCellState(grid.Cells[i, j]));
                     Console.Write("\t");
                 }
-                //Console.WriteLine("===========================================================");
+
+                Console.WriteLine();
+                //
             }
+            Console.WriteLine("===========================================================");
         }
         private string GetCellState(Cell cell)
         {
